@@ -7,7 +7,6 @@ lita:
   env_file:
     - ./.env
   environment:
-    - LITA_LOG_LEVEL=debug
     - REDIS_HOST=redis
     - REDIS_PORT=6379
   ports:
