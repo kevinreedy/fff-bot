@@ -37,3 +37,6 @@ build/
 
 # ignore local .env
 .env
+
+# ignore dev redis data
+/data/appendonly.aof

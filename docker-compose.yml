@@ -1,0 +1,20 @@
+lita:
+  volumes:
+    - .:/app
+  build: .
+  links:
+    - redis
+  env_file:
+    - ./.env
+  environment:
+    - LITA_LOG_LEVEL=debug
+    - REDIS_HOST=redis
+    - REDIS_PORT=6379
+  ports:
+    - '8080:8080'
+
+redis:
+  image: redis:3.0.4
+  command: redis-server --appendonly yes
+  volumes:
+    - ./data:/data
