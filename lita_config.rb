@@ -17,15 +17,14 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :shell
+  config.robot.adapter = :slack
 
   ## Example: Set options for the chosen adapter.
-  # config.adapter.username = "myname"
-  # config.adapter.password = "secret"
+  config.adapters.slack.token = ENV["SLACK_TOKEN"]
 
   ## Example: Set options for the Redis connection.
-  # config.redis.host = "127.0.0.1"
-  # config.redis.port = 1234
+  config.redis.host = ENV["REDIS_HOST"] || "127.0.0.1"
+  config.redis.port = ENV["REDIS_PORT"] || 6379
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
