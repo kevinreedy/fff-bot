@@ -14,4 +14,6 @@ Lita.configure do |config|
 
   config.redis.host = ENV["REDIS_HOST"] || "127.0.0.1"
   config.redis.port = ENV["REDIS_PORT"] || 6379
+
+  config.handlers.espn_fantasy_football.league_id = ENV["ESPN_LEAGUE_ID"]
 end
