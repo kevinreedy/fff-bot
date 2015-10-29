@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/kevinreedy/lita-espn-fantasy-football.git
-  revision: bc4ceab6fefadc7ce81068627b6f829d43499ae1
+  revision: dddd85c71568b25973a6effb0a2e1b2bc714d425
   branch: activity
   specs:
     lita-espn-fantasy-football (0.1.4)
