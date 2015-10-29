@@ -1,5 +1,8 @@
 FROM litaio/ruby:2.2.3
 
+# Install git
+RUN apt-get update && apt-get install -y git
+
 # Install gems
 WORKDIR /app
 COPY Gemfile Gemfile
