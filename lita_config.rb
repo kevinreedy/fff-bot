@@ -16,5 +16,5 @@ Lita.configure do |config|
   config.redis.port = ENV["REDIS_PORT"] || 6379
 
   config.handlers.espn_fantasy_football.league_id = ENV["ESPN_LEAGUE_ID"]
-  config.handlers.espn_fantasy_football.season_id = 2016
+  config.handlers.espn_fantasy_football.season_id = 2017
 end
