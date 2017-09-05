@@ -1,4 +1,4 @@
-FROM litaio/ruby:2.2.3
+FROM litaio/ruby:2.4.0
 
 # Install git
 RUN apt-get update && apt-get install -y git
