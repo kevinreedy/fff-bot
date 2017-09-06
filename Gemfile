@@ -1,11 +1,11 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "lita"
-gem "lita-dotenv"
+gem 'lita'
+gem 'lita-dotenv'
 
 # Use Slack adapter
-gem "lita-slack"
+gem 'lita-slack'
 
 # Add handlers to give Lita new functionality.
-gem "lita-karma"
-gem "lita-espn-fantasy-football"
+gem 'lita-espn-fantasy-football'
+gem 'lita-karma'
