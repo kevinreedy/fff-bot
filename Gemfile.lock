@@ -28,7 +28,7 @@ GEM
     lita-dotenv (0.9.0)
       dotenv (~> 2.0)
       lita (>= 4.4)
-    lita-espn-fantasy-football (0.3.2)
+    lita-espn-fantasy-football (0.3.3)
       lita (~> 4.7)
       nokogiri (~> 1.8)
       terminal-table (~> 1.8)
